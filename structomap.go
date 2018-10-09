@@ -3,9 +3,10 @@ package structomap
 
 import (
 	"fmt"
+	"reflect"
+
 	"github.com/fatih/structs"
 	"github.com/huandu/xstrings"
-	"reflect"
 )
 
 // KeyCase represenets the word case of the output keys
